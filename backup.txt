@@ -10,7 +10,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 <title>Yearn Art | Login</title>
 <link rel="icon" href="Yearn.jpg" type="image/png">
@@ -45,7 +44,7 @@
     </div>
     <div class="main-container">
       <section id="tranding">
-          <div class="container1">
+          <div class="container">
           <div class="swiper tranding-slider">
               <div class="swiper-wrapper">
               <!-- Slide-start -->
@@ -71,10 +70,9 @@
               <!-- Slide-end -->
               </div>
           </div>
-        
           </div>
       </section>
-    </div>
+  </div>
   </div>  
 
 <script src="./home.js"></script>
@@ -125,11 +123,6 @@
 </div>
 <script src="./Chat.js"></script>
 <script src="./app.js"></script>
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
 
 
   <script>

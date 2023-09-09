@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after{
-  box-sizing: border-box;
-}
+
 
 body {
     position: relative;
@@ -47,7 +43,6 @@ body {
 .menu-links a:hover {
     color: #FAC6BF;
     font-weight: 700;
-    /* Add any additional styling you want for the click effect */
 }
 
 .menu-btn{
@@ -59,13 +54,13 @@ body {
 
   .logo {
     display: flex;
-    align-items: center; /* Vertically center the image */
+    align-items: center;
   }
 
   .logo img {
-    width: 50px; /* Adjusted size of the logo image */
+    width: 50px; 
     height: auto;
-    margin-right: 15px; /* Add some spacing between the image and text */
+    margin-right: 15px;
     border-radius: 50%;
   }
 
@@ -80,10 +75,17 @@ body {
     color: #E4D8CC;
   }
   
-  .container {
-    display: flex;
-    align-items: center; /* Center vertically */
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.main-container{
+  margin-right: 90px;
+}
+
 
 .picture img{
     width:650px;
@@ -91,6 +93,40 @@ body {
     max-height: 100%;
     margin-left: 10%;
 }
+
+
+.container1 {
+  max-width: 43rem;
+  padding: 0 1rem;
+  margin: 4rem auto;
+}
+
+
+#tranding .tranding-slider {
+  height: 32rem;
+  padding: 4rem 12rem;
+  position: relative;
+}
+
+.tranding-slide {
+  width: 17rem;
+  height: 22rem;
+  position: relative;
+}
+
+
+.tranding-slide .tranding-slide-img img {
+  width: 17rem;
+  height: 22rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
 
 
 /* CHATBOX
