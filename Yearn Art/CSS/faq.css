@@ -9,6 +9,8 @@ body {
   a {text-decoration: none;}
 
   .navbar{
+    position: sticky;
+    top: 0;
     height: 80px;
     background-color: #7D5452;
     padding: 20px 40px;
